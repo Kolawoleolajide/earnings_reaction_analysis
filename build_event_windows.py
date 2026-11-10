@@ -66,9 +66,9 @@ for _, event in events.iterrows():
             f"{reaction_date}"
         )
 
-    # Define seven-session window
-    start_position = reaction_position - 3
-    end_position = reaction_position + 3
+    # Define seven-session window around announcement date
+    start_position = announcement_position - 3
+    end_position = announcement_position + 3
 
     if start_position < 0 or end_position >= len(stock):
         raise ValueError(
