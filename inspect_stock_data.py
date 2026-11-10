@@ -20,8 +20,8 @@ url = "https://financialmodelingprep.com/stable/historical-price-eod/full"
 
 params = {
     "symbol": "AAPL",
-    "from": "2026-09-01",
-    "to": "2026-10-30",
+    "from": "2026-01-22",
+    "to": "2026-11-09",
     "apikey": API_KEY
 }
 
