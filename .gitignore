@@ -16,3 +16,11 @@ __pycache__/
 data/raw/
 
 data/processed/
+
+# HF Data Library - local datasets
+data/hf_data_library/raw/
+data/hf_data_library/processed/
+data/hf_data_library/powerbi/
+
+# Allow safe environment template
+!.env.example
